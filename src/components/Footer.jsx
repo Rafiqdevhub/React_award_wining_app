@@ -1,10 +1,10 @@
-import { FaDiscord, FaTwitter, FaYoutube, FaMedium } from "react-icons/fa";
+import { FaDiscord, FaLinkedin } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 const socialLinks = [
-  { href: "https://discord.com", icon: <FaDiscord /> },
-  { href: "https://twitter.com", icon: <FaTwitter /> },
-  { href: "https://youtube.com", icon: <FaYoutube /> },
-  { href: "https://medium.com", icon: <FaMedium /> },
+  { href: "https://discord.com/rafiqdevhub", icon: <FaDiscord /> },
+  { href: "https://twitter.com", icon: <FaSquareXTwitter /> },
+  { href: "https://www.linkedin.com/in/rafiqdevhub/", icon: <FaLinkedin /> },
 ];
 
 const Footer = () => {
